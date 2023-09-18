@@ -6,17 +6,17 @@ Chatting with datafiles
 2. This is currently added as a streamlit application in ask_excel.py
 
 
-1. Create a python env and install the required libraries using
+Create a python env and install the required libraries using:
 ```
 pip install -r requirements.txt
 ```
-3. Set up your openai key part as env variable using the command:
 
+Set up your openai key part as env variable using the command:
 ```
 conda env config vars set OPENAI_API_KEY = (add key here)
 ```
 
-5. Launch app using:
+Launch app using:
 ```
 streamlit run ask_excel.py
 ```
