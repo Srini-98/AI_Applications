@@ -9,7 +9,7 @@ from llama_index.llms import OpenAI
 
 OPENAI_API_KEY=os.environ.get("OPENAI_API_KEY")
 
-st.set_page_config(page_title="Analtze Your Data")
+st.set_page_config(page_title="Chat with Your Data")
 
 model = "GPT-4"
 st.header(f"Analyze your doucments with text queries")
